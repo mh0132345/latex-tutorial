@@ -128,7 +128,7 @@ Bạn có thể hiểu cả ba như thể là biến trong lập trình để sa
 
 # Bold, italics, underline
 
-Bold là chữ đậm, italics là nghiêng, underline là gạch dưới. Nhưng tôi để nguyên để bạn có thể dễ nhớ command hơn. Command của chúng lần lượt là: `\textbf{...}` , `\textit{...}` , `\underline{...}` .
+Bold là chữ đậm, italics là nghiêng, underline là gạch dưới. Nhưng tôi để nguyên để bạn có thể dễ nhớ command hơn. Command của chúng lần lượt là: `\textbf{...}` , `\textit{...}` , `\underline{...}`. Bạn cũng có thể ấn `Ctrl + B`, `Ctrl + I` cho chữ đậm và chữ nghiêng cho nhanh.
 
 Một command đặc biệt khác là `\emph{...}`, nếu đoạn kí tự trước nó thẳng thì nó sẽ nghiêng, còn nếu các kí tự phía trước nghiên thì sẽ thành viết thẳng. Đơn giản là đảo ngược tùy theo đoạn văn bản.
 
@@ -156,6 +156,8 @@ lại với nhau \emph{như trên}}.
 Hiển thị:
 
 ![](img/simple_style.png) 
+
+Một số khác  có thể bạn sẽ cần là `\newline` để xuống dòng, `\newpage` để mở trang mới khi cần. Và còn khá nhiều trên Google chờ bạn.
 
 ## Lists
 
@@ -254,7 +256,10 @@ Lưu ý là bạn phải đưa đường dẫn tới bức ảnh chính xác. N�
 \end{figure}
 ```
 
-**Tips**: [width=\linewidth] chỉnh độ dài bức ảnh so với văn bản. `\centering` căn giữa giữa bức ảnh. 
+**Tips**:
+- [width=\linewidth] chỉnh độ dài bức ảnh so với văn bản.
+- `\centering` căn giữa giữa bức ảnh. 
+- `\begin{figure}[h]` để ảnh hiển thị tại chỗ khai báo
 
 Còn đây là kết quả
 
