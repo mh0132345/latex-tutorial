@@ -32,11 +32,13 @@ LaTeX là một gói các tập lệnh cho phép tác giả có thể soạn th�
 Bạn sẽ cần những thứ sau.
 
 1. *Một phiên bản LaTeX.*
-Tôi sử dụng [MiKTeX](https://miktex.org/about) cho Windows.
+Tôi sử dụng [MiKTeX](https://miktex.org/about) cho Windows. 
+Ấn download để tải về tại [đây](https://miktex.org/download)
 2. *LaTeX Editor.*
 Tôi sử dụng [TeXMaker](http://www.xm1math.net/texmaker/) để dễ chỉnh sửa, dù vây bất kì editor nào cũng viết LaTeX file được.
+Download tại [đây](http://www.xm1math.net/texmaker/download.html). Nếu bạn dùng window thì chọn **Desktop msi installer for windows**
 
-Thêm vào đó, bạn cần chọn một [compiler](#additional-tools). Đa số măc định là pdfLaTeX, nhưng nếu cần viết Unicode hay TTF/OTF fonts thì có thể dùng LuaLaTeX.
+Thêm vào đó, bạn cần chọn một compiler. Đa số măc định là pdfLaTeX, nhưng nếu cần viết Unicode hay TTF/OTF fonts thì có thể dùng LuaLaTeX. Với TeXMaker thì mặc định là pdfLaTeX nên bạn không cần quan tâm.
 
 ## Viết file LaTeX đầu tiên
 
@@ -346,7 +348,7 @@ Bạn có thể nhận ra rằng
 
 Kết quả:
 
-![](code_listing.png)
+![](img/code_listing.png)
 
 ## Yeahoo!!!
 Hướng dẫn tuy ngắn nhưng cũng đã bao gồm phần lớn cơ bản về LaTeX.
