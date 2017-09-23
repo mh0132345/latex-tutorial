@@ -1,0 +1,30 @@
+\documentclass[a4paper]{article}
+
+\usepackage[T5]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+
+\lstdefinestyle{mystyle}{
+keywordstyle=\color{blue},
+commentstyle=\color{green},
+numbers = left,
+stringstyle=\color{codepurple},
+basicstyle=\footnotesize
+}
+
+\lstset{style=mystyle}
+
+\begin{document}
+
+
+\begin{lstlisting}[language=Python]
+def firstDuplicate(a):
+    for i in a:
+        a[abs(i)-1] *= -1
+        if a[abs(i)-1] > 0:
+            return abs(i)
+    return -1
+\end{lstlisting}
+
+\end{document}
