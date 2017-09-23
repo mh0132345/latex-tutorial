@@ -350,7 +350,7 @@ Kết quả:
 
 ![](img/code_listing.png)
 
-## Yeahoo!!!
+## Yeah hoo!!!
 Hướng dẫn tuy ngắn nhưng cũng đã bao gồm phần lớn cơ bản về LaTeX.
 
 Cảm ơn bạn đã hoàn thành hướng dẫn. 
